@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Tailwind_CSS Project</title>
+  </head>
+  <body class="bg-slate-950">
+    <!-- navbar -->
+    <nav
+      class="w-full h-14 bg-indigo-200 flex p-4 justify-between items-center md:px-6"
+    >
+      <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+      <ul class="md:flex hidden font-semibold">
+        <li class="mx-[10px] cursor-pointer">Home</li>
+        <li class="mx-[10px] cursor-pointer">About</li>
+        <li class="mx-[10px] cursor-pointer">Contact</li>
+      </ul>
+      <div>
+        <button
+          class="hidden md:block px-3 py-2 bg-indigo-600 rounded-lg font-medium cursor-pointer"
+        >
+          Login/Sign Up
+        </button>
+
+        <div class="md:hidden">
+          <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar-end -->
+
+    <!-- Hero-section -->
+    <header class="w-full h-auto">
+      <img
+        class="w-full hidden md:block"
+        src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg"
+        alt=""
+      />
+      <img
+        class="w-full md:hidden"
+        src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg"
+        alt=""
+      />
+    </header>
+
+    <!-- hero-section-end -->
+
+    <!-- Student-section -->
+
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center mt-8">
+        <p class="text-indigo-800 font-bold text-2xl md:4xl">
+          "Pure Hardwork, No Shortcuts!"
+        </p>
+        <div
+          class="w-36 h-1 border-b-4 border-yellow-200 mt-2 rounded-sm"
+        ></div>
+
+        <div class="w-full flex flex-wrap justify-evenly pt-8 mt-6">
+          <!-- card-1 -->
+          <div>
+            <div class="w-46 flex flex-col items-center mb-4 mt-3">
+              <img
+                src="https://pwskills.com/images/homePage/statistics2.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">600+</p>
+            <p class="text-gray-500 text-xl text-bold">Different Courses</p>
+          </div>
+          <!-- card-2 -->
+          <div>
+            <div class="w-46 flex flex-col items-center mb-4 mt-3">
+              <img
+                src="	https://pwskills.com/images/homePage/products-icon3.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">700,000+</p>
+            <p class="text-gray-500 text-xl text-bold">Students Enrolled</p>
+          </div>
+          <!-- card-3 -->
+          <div>
+            <div class="w-46 flex flex-col items-center mb-4 mt-3">
+              <img
+                src="https://pwskills.com/images/homePage/statistics3.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">10,000+</p>
+            <p class="text-gray-500 text-xl text-bold">Successful Transition</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Student-section-end -->
+    <!-- Product section -->
+
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-indigo-800 font-bold text-2xl md:4xl">Our Products</p>
+        <div
+          class="w-24 h-1 border-b-4 border-yellow-200 mt-2 rounded-sm"
+        ></div>
+
+        <div class="w-[100%] h-auto flex flex-wrap justify-center gap-5 pt-8">
+          <!-- card-1 -->
+          <div class="border p-4 rounded-lg">
+            <div class="w-46 flex flex-col items-center mb-4">
+              <img
+                src="	https://pwskills.com/images/homePage/products-icon1.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">PW Skills Lab</p>
+            <p class="text-gray-500 text-sm text-bold">
+              Supercharge your project <br />
+              development with <br />
+              our robust lab.
+            </p>
+          </div>
+          <!-- card-2 -->
+          <div class="p-4">
+            <div class="w-46 flex flex-col items-center mb-4">
+              <img
+                src="https://pwskills.com/images/homePage/products-icon4.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">Job Portal</p>
+            <p class="text-gray-500 text-sm text-bold">
+              Use exceptional template <br />s for a stand-out resume <br />
+              minus the sign up process.
+            </p>
+          </div>
+          <!-- card-3 -->
+          <div class="p-4">
+            <div class="w-46 flex flex-col items-center mb-4">
+              <img
+                src="https://experience.pwskills.com/images/internship-step-4.svg"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">Experience Portal</p>
+            <p class="text-gray-500 text-sm text-bold">
+              PW Skills's self-paced <br />experience portal prioritises<br />
+              hands-on training with 570+ <br />internship projects.
+            </p>
+          </div>
+          <!-- card-4 -->
+          <div class="p-4">
+            <div class="w-46 flex flex-col items-center mb-4">
+              <img
+                src="https://pwskills.com/images/homePage/products-icon5.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">Become an affiliate</p>
+            <p class="text-gray-500 text-sm text-bold">
+              Explore affiliate market <br />ing opportunities with PW Skills
+              <br />
+              and attain financial freedom.
+            </p>
+          </div>
+          <!-- card-5 -->
+          <div class="p-4">
+            <div class="w-46 flex flex-col items-center mb-4">
+              <img
+                src="https://pwskills.com/images/homePage/products-icon3.png"
+                alt=""
+              />
+            </div>
+            <p class="text-white text-xl text-bold">Hall of fame</p>
+            <p class="text-gray-500 text-sm text-bold">
+              Our student placements a <br />nd 100K+ career transitions <br />
+              speak volumes about our courses.
+            </p>
+          </div>
+        </div>
+        <!-- product-section-end -->
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-gray-950 w-full mt-4 md:px-12 py-28 text-white">
+      <div
+        class="flex flex-col md:flex-row flex-wrap justify-center items-center md:items-start md:gap-20 gap-10 px-10"
+      >
+        <!-- section-1 -->
+        <div class="flex flex-col w-[300px]">
+          <div>
+            <img
+              class="w-44"
+              src="	https://pwskills.com/images/PWSkills-white.png"
+              alt=""
+            />
+          </div>
+          <div class="flex items-center mt-7">
+            <i class="fa-solid fa-envelope"></i>
+            <p class="ml-4">Email us: support@pwskills.com</p>
+          </div>
+          <div class="flex items-center mt-7">
+            <i class="fa-solid fa-phone"></i>
+            <p class="ml-4">Call us: +91 7666122288</p>
+          </div>
+          <div class="text-2xl flex gap-4 mt-7">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-discord"></i>
+          </div>
+        </div>
+        <!-- section-2 -->
+        <div class="flex flex-col w-[320px]">
+          <div class="">
+            <p class="text-3xl text-bold">PW Skills</p>
+            <div
+              class="w-56 h-1 border-b-4 border-yellow-700 rounded-sm mt-4"
+            ></div>
+          </div>
+
+          <div class="grid grid-cols-2 grid-rows-3">
+            <div class="mt-7">
+              <p>About us</p>
+            </div>
+
+            <div class="mt-7">
+              <p>contact us</p>
+            </div>
+            <div>
+              <p class="mt-7">FAQs</p>
+            </div>
+
+            <div>
+              <p class="mt-7">Job assistance</p>
+            </div>
+            <div>
+              <p class="mt-7">Privacy policy</p>
+            </div>
+
+            <div>
+              <p class="mt-7">Terms and conditions</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- section-3 -->
+        <div class="flex flex-col w-[250px]">
+          <div class="">
+            <p class="text-3xl text-bold">Products</p>
+            <div
+              class="w-56 h-1 border-b-4 border-yellow-700 rounded-sm mt-4"
+            ></div>
+          </div>
+
+          <div>
+            <p class="mt-6">Job Portal</p>
+            <p class="mt-6">Experience portal</p>
+            <p class="mt-6">Become an affiliate</p>
+            <p class="mt-6">Hall of fame</p>
+            <p class="mt-6">PW Skills Lab</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
